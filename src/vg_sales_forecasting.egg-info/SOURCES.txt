@@ -1,0 +1,16 @@
+README.md
+setup.py
+src/vg_sales_forecasting.egg-info/PKG-INFO
+src/vg_sales_forecasting.egg-info/SOURCES.txt
+src/vg_sales_forecasting.egg-info/dependency_links.txt
+src/vg_sales_forecasting.egg-info/top_level.txt
+src/videogamesforecasting/__init__.py
+src/videogamesforecasting/components/__init__.py
+src/videogamesforecasting/config/__init__.py
+src/videogamesforecasting/config/configuration.py
+src/videogamesforecasting/constants/__init__.py
+src/videogamesforecasting/entity/__init__.py
+src/videogamesforecasting/entity/config_entity.py
+src/videogamesforecasting/pipeline/__init__.py
+src/videogamesforecasting/utils/__init__.py
+src/videogamesforecasting/utils/common.py
