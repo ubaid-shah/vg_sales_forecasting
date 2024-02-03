@@ -1,0 +1,14 @@
+[2024-02-03 14:14:02,560 - INFO - main - This is new logger]
+[2024-02-03 14:14:36,563 - INFO - main - This is new logger 1]
+[2024-02-03 14:15:05,181 - INFO - main - This is new logger 1]
+[2024-02-03 14:15:12,156 - INFO - main - This is new logger 1]
+[2024-02-03 23:03:14,034 - INFO - S01_data_ingestion_pipeline - >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-03 23:03:14,037 - INFO - common - yaml file: config\config.yaml loaded successfully]
+[2024-02-03 23:03:14,038 - INFO - common - yaml file: params.yaml loaded successfully]
+[2024-02-03 23:03:14,039 - INFO - common - yaml file: schema.yaml loaded successfully]
+[2024-02-03 23:03:14,039 - INFO - common - created directory at: artifacts]
+[2024-02-03 23:03:14,040 - INFO - common - created directory at: artifacts/data]
+[2024-02-03 23:03:14,870 - INFO - data_ingestion - video_games_sales.csv is saved]
+[2024-02-03 23:03:14,874 - INFO - S01_data_ingestion_pipeline - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]

@@ -1,0 +1,16 @@
+artifacts_root: artifacts
+
+
+data_ingestion:
+  source:
+    type: mysql
+    host: 127.0.0.1
+    port: 3306
+    database: sales
+    username: gamesales
+    password: ubaid123
+    query: "SELECT * FROM videogames;"
+  destination:
+    type: csv
+    path: artifacts/data/video_games_sales.csv
+    include_column_names: true
