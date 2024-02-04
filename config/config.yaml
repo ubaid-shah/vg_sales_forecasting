@@ -12,5 +12,15 @@ data_ingestion:
     query: "SELECT * FROM videogames;"
   destination:
     type: csv
-    path: artifacts/data/video_games_sales.csv
+    path: artifacts/data_ingestion/video_games_sales.csv
     include_column_names: true
+
+
+data_validation:
+  dir: artifacts/data_validation
+  data_dir: artifacts/data_ingestion/video_games_sales.csv
+  STATUS_FILE: artifacts/data_validation/status.txt
+
+data_transformation:
+  dir: artifacts/data_transformation
+  data_dir: artifacts/data_ingestion/video_games_sales.csv

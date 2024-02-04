@@ -1,1 +1,17 @@
-key: value
+COLUMNS:
+  Name: object
+  Platform: object
+  Year_of_Release: float64
+  Genre: object
+  Publisher: object
+  NA_Sales: float64
+  EU_Sales: float64
+  JP_Sales: float64
+  Other_Sales: float64
+  Global_Sales: float64
+  Critic_Score: float64
+  Critic_Count: float64
+  User_Score: object
+  User_Count: float64
+  Developer: object
+  Rating: object
